@@ -1,0 +1,10 @@
+<div id="form">
+    <form ng-submit="library.addSong()">
+        <input ng-model="library.newSong.title" type="text" class="form-control" placeholder="Title">
+        <input ng-model="library.newSong.artist" type="text" class="form-control" placeholder="Artist">
+        <input ng-model="library.newSong.album" type="text" class="form-control" placeholder="Album">
+        <input ng-model="library.newSong.release" type="date" class="form-control" placeholder="Release date">
+        <!--textarea class="form-control" rows="3"></textarea-->
+        <input type="submit" class="btn btn-primary" value="Add">
+    </form>
+</div>
