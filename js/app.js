@@ -1,5 +1,6 @@
 var app = angular.module('myApp', []);
 
+
 app.service('service1', function($rootScope) {
     var info = {
         albumName: '',
